@@ -70,6 +70,20 @@ const services = [
       </svg>
     ),
   },
+  {
+    number: "06",
+    titleTh: "วิจัยและสำรวจเหมืองแร่",
+    titleEn: "Mining Research & Exploration",
+    descriptionTh: "วิจัยและสำรวจแร่หายากในประเทศไทย โดยเฉพาะแร่โพแทช พร้อมให้คำปรึกษาธรณีวิทยาและการวางแผนพัฒนาเหมือง",
+    descriptionEn: "Rare earth mineral research and potash exploration in Thailand with geological consulting",
+    features: ["วิจัยแร่โพแทช", "ประเมินแหล่งแร่", "ที่ปรึกษาธรณีวิทยา", "วางแผนพัฒนาเหมือง", "วิเคราะห์ตัวอย่างแร่"],
+    icon: (
+      <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l-2 2" />
+      </svg>
+    ),
+  },
 ];
 
 const targetClients = [
@@ -175,7 +189,7 @@ export default function Home() {
                 {[
                   { value: "6+", label: "ปีประสบการณ์" },
                   { value: "41M", label: "ทุนจดทะเบียน (บาท)" },
-                  { value: "5", label: "กลุ่มบริการหลัก" },
+                  { value: "6", label: "กลุ่มบริการหลัก" },
                   { value: "100+", label: "ลูกค้าที่ไว้วางใจ" },
                 ].map((s, i) => (
                   <div key={i} className="bg-white/5 rounded-lg p-6 text-center border border-white/10">

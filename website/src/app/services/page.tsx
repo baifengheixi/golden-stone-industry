@@ -73,6 +73,19 @@ const services = [
       { t: "สนับสนุนความมั่นคงแห่งชาติ", e: "National Security Support", d: "ระบบสนับสนุนภารกิจด้านความมั่นคงแห่งชาติ" },
     ],
   },
+  {
+    id: "mining", titleTh: "วิจัยและสำรวจเหมืองแร่", titleEn: "Mining Research & Exploration",
+    descTh: "บริษัทฯ ให้บริการด้านการวิจัยและสำรวจเหมืองแร่หายากในประเทศไทย โดยเฉพาะแร่โพแทช พร้อมทั้งให้คำปรึกษาด้านธรณีวิทยา การประเมินแหล่งแร่ และการวางแผนพัฒนาเหมืองอย่างยั่งยืน",
+    descEn: "We provide rare earth mineral research and mining exploration services in Thailand, specializing in potash deposits, with geological consulting, mineral resource assessment, and sustainable mine development planning.",
+    img: "/images/potash-mining.jpg",
+    features: [
+      { t: "วิจัยและสำรวจแร่โพแทช", e: "Potash Exploration & Research", d: "สำรวจและวิจัยแหล่งแร่โพแทชในประเทศไทยด้วยเทคโนโลยีทันสมัย" },
+      { t: "ประเมินแหล่งแร่หายาก", e: "Rare Earth Mineral Assessment", d: "ประเมินปริมาณและคุณภาพของแหล่งแร่หายากด้วยวิธีการทางวิทยาศาสตร์" },
+      { t: "ให้คำปรึกษาธรณีวิทยา", e: "Geological Consulting", d: "ให้คำปรึกษาด้านธรณีวิทยาและการวางแผนสำรวจเหมืองแร่" },
+      { t: "วางแผนพัฒนาเหมือง", e: "Mine Development Planning", d: "วางแผนพัฒนาเหมืองอย่างยั่งยืนตามมาตรฐานสากล" },
+      { t: "วิเคราะห์ตัวอย่างแร่", e: "Mineral Sample Analysis", d: "บริการวิเคราะห์และทดสอบตัวอย่างแร่ในห้องปฏิบัติการ" },
+    ],
+  },
 ];
 
 export default function ServicesPage() {
@@ -85,7 +98,7 @@ export default function ServicesPage() {
           <div className="relative z-10 container-max text-center px-4">
             <p className="text-gold-400 font-semibold text-sm uppercase tracking-wider mb-3">Our Services</p>
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">บริการของเรา</h1>
-            <p className="text-gray-300 text-lg max-w-2xl mx-auto">เราให้บริการครอบคลุม 5 กลุ่มหลัก ตั้งแต่การจัดหาอุปกรณ์ การให้คำปรึกษา ไปจนถึงการบำรุงรักษา</p>
+            <p className="text-gray-300 text-lg max-w-2xl mx-auto">เราให้บริการครอบคลุม 6 กลุ่มหลัก ตั้งแต่การจัดหาอุปกรณ์ การให้คำปรึกษา ไปจนถึงการบำรุงรักษา</p>
           </div>
         </section>
 
