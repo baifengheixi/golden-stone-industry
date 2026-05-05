@@ -119,6 +119,14 @@ export function Footer() {
                   ต่อต้านโดรน / Anti-Drone Systems
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="transition-colors hover:text-gold"
+                >
+                  วิจัยและสำรวจเหมืองแร่ / Mining Research &amp; Exploration
+                </Link>
+              </li>
             </ul>
           </div>
 

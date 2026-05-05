@@ -72,7 +72,7 @@ export default function AboutPage() {
             <div className="bg-white rounded-xl shadow-lg p-8 md:p-12 border-l-4 border-gold-500">
               <div className="flex flex-col md:flex-row gap-8 items-start">
                 <div className="shrink-0">
-                  <img src="/images/ceo-portrait.jpg" alt="CEO" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-gold-500/20" />
+                  <img src="/images/ceo-portrait.jpg" alt="CEO" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover object-top border-4 border-gold-500/20" />
                 </div>
                 <div>
               <svg className="w-12 h-12 text-gold-500/30 mb-6" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.706 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.706 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" /></svg>
@@ -165,7 +165,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="rounded-lg overflow-hidden shadow-lg h-80">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.929!2d100.416!3d13.883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29d7c0b7b8b8b%3A0x0!2z4Lin4Lix4LiU4Lil4Liy4LiU4LmD4Liq4Li44LiH!5e0!3m2!1sth!2sth!4v1" width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Golden Stone Industry Location" />
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874!2d100.4044288!3d13.8873032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e28f50b6cd9395%3A0xd83dc46aaabf8533!2z4LmC4LiB4Lil4LmA4LiU4LmJ4LiZIOC4quC5guC4leC4mSDguK3guLTguJnguJTguLHguKrguJfguKPguLU=!5e0!3m2!1sth!2sth!4v2" width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Golden Stone Industry Location" />
               </div>
             </div>
           </div>

@@ -54,7 +54,7 @@ export default function ContactPage() {
                   ))}
                 </div>
                 <div className="mt-8 rounded-xl overflow-hidden shadow-lg h-64">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.929!2d100.416!3d13.883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29d7c0b7b8b8b%3A0x0!2z4Lin4Lix4LiU4Lil4Liy4LiU4LmD4Liq4Li44LiH!5e0!3m2!1sth!2sth!4v1" width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Golden Stone Industry Location" />
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874!2d100.4044288!3d13.8873032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e28f50b6cd9395%3A0xd83dc46aaabf8533!2z4LmC4LiB4Lil4LmA4LiU4LmJ4LiZIOC4quC5guC4leC4mSDguK3guLTguJnguJTguLHguKrguJfguKPguLU=!5e0!3m2!1sth!2sth!4v2" width="100%" height="100%" style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Golden Stone Industry Location" />
                 </div>
               </div>
               <div>
